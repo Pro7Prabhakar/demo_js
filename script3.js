@@ -25,5 +25,5 @@ function decrement(){
 const h = document.getElementById('h')
 
 function display(){
-    h.style.display = 'block';
+    h.style.display !== 'block' ? (h.style.display = 'block') : (h.style.display = 'none') ;
 }
